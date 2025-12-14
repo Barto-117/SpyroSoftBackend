@@ -18,7 +18,7 @@ public class ChargingWindowController {
     }
 
     @GetMapping("/{from}/{to}/{duration}")
-    @CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+    @CrossOrigin(origins = "https://spyrosoftfrontend.onrender.com")
     public Mono<JsonNode> getData(@PathVariable String from, @PathVariable String to, @PathVariable int duration) {
         return chargingWindowService.getData(from, to, duration);
     }

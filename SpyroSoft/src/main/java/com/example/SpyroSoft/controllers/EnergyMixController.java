@@ -18,7 +18,7 @@ public class EnergyMixController {
     }
 
     @GetMapping("/{from}/{to}")
-    @CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+    @CrossOrigin(origins = "https://spyrosoftfrontend.onrender.com")
     public Mono<JsonNode> getData(@PathVariable String from, @PathVariable String to) {
         return energyMixService.getData(from, to);
     }
