@@ -1,0 +1,8 @@
+com\example\SpyroSoft\model\FuelData.class
+com\example\SpyroSoft\services\ChargingWindowService.class
+com\example\SpyroSoft\SpyroSoftApplication.class
+com\example\SpyroSoft\config\WebClientConfig.class
+com\example\SpyroSoft\model\Interval.class
+com\example\SpyroSoft\controllers\EnergyMixController.class
+com\example\SpyroSoft\controllers\ChargingWindowController.class
+com\example\SpyroSoft\services\EnergyMixService.class
